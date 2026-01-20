@@ -1,0 +1,7 @@
+# Robotun hareket hızları
+linear_speed: 0.2
+angular_speed: 0.3
+
+# Hareket süreleri (saniye)
+move_duration: 5.0
+

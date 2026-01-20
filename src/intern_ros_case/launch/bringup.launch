@@ -1,0 +1,16 @@
+<launch>
+    <node pkg="intern_ros_case" type="movement_node" name="movement_node" output="screen">
+        <rosparam command="load" file="$(find intern_ros_case)/config/params.yaml" />
+    </node>
+</launch>
+
+
+<!--
+for python:
+
+<launch>
+    <node pkg="intern_ros_case" type="movement_node.py" name="movement_node" output="screen">
+        <rosparam command="load" file="$(find intern_ros_case)/config/params.yaml" />
+    </node>
+</launch>
+-->
